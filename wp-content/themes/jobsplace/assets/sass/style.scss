@@ -1,0 +1,51 @@
+
+/* TEMA */
+$color-green: #0f0 ;
+
+@import 'theme/bootstrap-theme.min';
+@import 'theme/bootstrap';
+@import 'theme/bootstrap-theme.min';
+@import 'theme/bootstrap-theme';
+@import 'theme/dashboard';
+@import 'theme/dripicon';
+@import 'theme/entypo';
+@import 'theme/entypo-icon';
+@import 'theme/font-awesome';
+@import 'theme/jquery.navgoco';
+@import 'theme/login';
+@import 'theme/mail';
+@import 'theme/plugins';
+@import 'theme/print';
+@import 'theme/responsive';
+@import 'theme/responsive-rightmenu';
+@import 'theme/theme_style';
+
+@import 'theme/theme-right-menu';
+@import 'theme/theme-videobg';
+@import 'theme/topmenu';
+@import 'theme/typicons';
+
+
+@import 'theme/theme';
+@import 'theme/theme-nopadding';
+
+/*---------------------------*/
+
+
+@import 'variaveis';
+@import 'home';
+@import 'padroes';
+@import 'style-login';
+
+
+.transition{
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+.shadow{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#000000)";/*IE 8*/
+	text-shadow: 1px 1px 3px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#000000); /*IE 5.5-7*/
+}

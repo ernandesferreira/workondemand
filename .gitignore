@@ -1,0 +1,49 @@
+.htaccess
+wp-config-*.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/themes/bkp-odin-master/
+wp-content/backup-db/
+wp-content/themes/futuraframework/node_modules/
+wp-content/themes/futuraframework/src/node_modules/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/themes/futuraframework/assets/js/main.min.js
+wp-content/themes/futuraframework/assets/css/style.css
+sitemap.xml
+*.log
+wp-content/cache/
+wp-content/backups/
+sitemap.xml.gz
+
+
+# Gereral #
+###########
+.ssh
+.svn
+
+# OS #
+#######
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+.sass-cache/
+wp-content/themes/futuraframework/assets/css/style.css
+wp-content/themes/futuraframework/assets/css/editor-style.css
+wp-content/themes/futuraframework/assets/css/futura.css
+
+
+.dropbox
+*.sql
+desktop.ini
+.init
+*.log

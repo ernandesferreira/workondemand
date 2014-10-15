@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600,700,800);
+
+@font-face {
+    font-family: logo;
+    src: url(../fonts/Inversionz.otf);
+}
+
+
+$fonte:		'Open Sans', sans-serif;
+$font_normal:          400 !default;
+$font_light:           300 !default;
+$font_bold:            600 !default;
+$font_exbold:          800 !default;
+
+//Cores
+$branco:               #fff !default;
+$fundo_menu:		   #1d1d21 !default;
+$azul:				   #1D89CF !default;
+$azul_1:		       #005bdb !default;
+
+
+
+
+//social colors
+$facebook:			   #458fcd !default;
+$twitter:			   #70cae0 !default;
+$gplus:				   #d2524f !default;

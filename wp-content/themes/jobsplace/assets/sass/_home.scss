@@ -1,0 +1,110 @@
+video#bgvid {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	//background: url(polina.jpg) no-repeat;
+	background-size: cover;
+}
+.faixa-super{
+	background-color: #222;
+	height: 95px;
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+	padding: 15px;
+	border-top: 5px solid #d43f3f;
+	border-bottom: 2px solid #363636;
+}
+/*.container_home{
+	background: url(../images/home.jpg) no-repeat center top;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	position: absolute;
+	background-size: cover;
+	z-index: 0;
+	//transform: rotateY(180deg);
+} */
+.mascara_home{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(../images/06.png);
+	z-index: -99;
+}
+.front{
+	z-index: 999;
+}
+.box_logo{
+	text-align: center;
+}
+.logo_home{
+	font-size: 130px;
+	font-family: 'logo';
+	margin-top: 95px;
+	color: #d43f3f;
+	text-shadow: #691100 2px 2px 2px;
+	.sub_logo{
+		font-size: 40px;
+		color: #fff;
+		font-family: 'logo';
+		margin-top: 28px;
+		width: 100%;
+	}
+}
+.login_home{
+	margin-top: 10px;
+	float: left;
+	font-size: 12px;
+	color: #fff;
+	width: 100%;
+	padding: 5px;
+	padding-left: 15px;
+}
+.input_logar{
+	float: left;
+	padding-left: 40px;
+}
+.box_btn{
+	width: 80px;
+}
+.bt-submit{
+	float: left;
+}
+.user {
+	float: left;
+	margin-right: 10px;
+}
+.password{
+	float: left;
+}
+.box_home{
+	margin-top: 100px;
+}
+.slogan{
+	margin-top: 50px;
+	p{
+		font-size: 60px;
+		color: #fff;
+		font-family: $fonte;
+		font-weight: lighter;
+		line-height: 85px;
+	}
+}
+.box_cadastro{
+	top: 75px;
+}
+.bt-cadastro{
+	margin-top: 80px;
+	.ladda-button[data-color=mint]{
+		background: #d43f3f!important;
+		width: 20%;
+		height: 78px;
+		border: none;
+	}
+	.ladda-button[data-size=xl] .ladda-label{
+		font-size: 2.5em;
+		color: #fff;
+	}
+}
+
